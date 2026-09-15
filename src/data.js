@@ -82,7 +82,7 @@ export const experience = [
   {
     role: 'Técnico de Soporte de TI (nivel 2)',
     company: 'Jazzplat España',
-    period: 'fechas a verificar',
+    period: 'jun. 2009 - feb. 2013 · 3 años 9 meses',
     description:
       'Soporte técnico de nivel 2 para campañas de activaciones de Pymes (CAT). Diagnóstico y resolución de incidencias de hardware, software, telefónica y redes, gestionando incidentes en mesa de ayuda y escalando al nivel correspondiente.',
     technologies: ['Soporte nivel 2', 'Mesa de ayuda', 'Redes'],
@@ -106,13 +106,6 @@ export const projects = [
     repo: 'https://github.com/Marcos-Castillo/etiquetas_v2',
   },
   {
-    title: 'Plataforma de gestión de RRHH y vacantes',
-    description:
-      'Sistema de gestión de vacantes desarrollado con Angular y Microsoft SQL Server, impulsando un aumento en las postulaciones de la empresa.',
-    image: asset('projects/rrhh.svg'),
-    repo: 'https://github.com/Marcos-Castillo/rrhh',
-  },
-  {
     title: 'Market',
     description: 'E-commerce desarrollado con React y Vite.',
     image: asset('projects/market-banner.png'),
@@ -121,13 +114,13 @@ export const projects = [
   {
     title: 'Control de Aforo Inteligente',
     description: 'Prototipo de control de aforo con detección facial integrada a Firebase.',
-    image: asset('projects/aforo.svg'),
+    image: asset('projects/aforo.png'),
     repo: 'https://github.com/Marcos-Castillo/pruba-reconcimiento-facial-',
   },
   {
     title: 'appChat',
-    description: 'Aplicación de mensajería con backend en tiempo real.',
-    image: asset('projects/appchat.svg'),
+    description: 'Aplicación de mensajería con backend en tiempo real, con un juego integrado.',
+    image: asset('projects/appchat.png'),
     repo: 'https://github.com/Marcos-Castillo/appChat',
   },
   {
