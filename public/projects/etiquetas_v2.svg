@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-label="Sistema de Etiquetas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdfcfb"/>
+      <stop offset="1" stop-color="#f4efe9"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ece6e2"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="599" height="399" fill="none" stroke="#ece6e2"/>
+  <text x="588" y="356" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="90" font-weight="700" opacity="0.05" fill="#1c1622" transform="rotate(-8 460 356)">PREVIEW</text>
+  <rect x="24" y="20" width="552" height="44" rx="10" fill="#ffffff" stroke="#ece6e2"/>
+  <circle cx="44" cy="42" r="5.5" fill="#ff6e42"/>
+  <circle cx="62" cy="42" r="5.5" fill="#f2c14e"/>
+  <circle cx="80" cy="42" r="5.5" fill="#6ecf6e"/>
+  <rect x="104" y="32" width="170" height="20" rx="10" fill="#faf6f3"/>
+  <rect x="40" y="92" width="520" height="192" rx="14" fill="#ffffff" stroke="#ece6e2" stroke-dasharray="7 7"/>
+  <circle cx="300" cy="160" r="38" fill="#ff6e42" opacity="0.14"/>
+  <text x="300" y="172" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="26" font-weight="700" fill="#ff6e42">&lt;/&gt;</text>
+  <rect x="258" y="222" width="84" height="24" rx="12" fill="#ff6e42" opacity="0.14"/>
+  <text x="300" y="238" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1" fill="#ff6e42">MOCKUP</text>
+  <text x="40" y="326" font-family="system-ui,Segoe UI,Roboto,sans-serif" font-size="27" font-weight="700" fill="#1c1622">Sistema de Etiquetas</text>
+  <text x="40" y="352" font-family="system-ui,Segoe UI,Roboto,sans-serif" font-size="15" fill="#6b6375">Impresión de precios · ESC/POS · Android + C#</text>
+  <rect x="40" y="366" width="96" height="20" rx="10" fill="#1c1622" opacity="0.06"/>
+  <text x="88" y="381" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1" fill="#6b6375">VISTA PREVIA</text>
+</svg>

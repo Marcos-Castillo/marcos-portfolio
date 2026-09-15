@@ -41,23 +41,25 @@ export const skillsGroups = [
   },
 ]
 
+const asset = (path) => `${import.meta.env.BASE_URL}${path}`
+
 export const skills = [
-  { name: 'Java', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg' },
-  { name: 'Spring Boot', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg' },
-  { name: 'C#', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg' },
-  { name: '.NET', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg' },
-  { name: 'Angular', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg' },
-  { name: 'React', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg' },
-  { name: 'Node.js', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg' },
-  { name: 'TypeScript', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg' },
-  { name: 'JavaScript', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' },
-  { name: 'Bootstrap', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg' },
-  { name: 'MySQL', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg' },
-  { name: 'SQL Server', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain.svg' },
-  { name: 'Firebase', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg' },
-  { name: 'Git', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg' },
-  { name: 'HTML', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg' },
-  { name: 'CSS', img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg' },
+  { name: 'Java', img: asset('icons/java.png') },
+  { name: 'Spring Boot', img: asset('icons/spring.png') },
+  { name: 'C#', img: asset('icons/csharp.png') },
+  { name: '.NET', img: asset('icons/dotnet.png') },
+  { name: 'Angular', img: asset('icons/angular.png') },
+  { name: 'React', img: asset('icons/react.png') },
+  { name: 'Node.js', img: asset('icons/node.png') },
+  { name: 'TypeScript', img: asset('icons/typescript.png') },
+  { name: 'JavaScript', img: asset('icons/javascript.png') },
+  { name: 'Bootstrap', img: asset('icons/bootstrap.png') },
+  { name: 'MySQL', img: asset('icons/mysql.png') },
+  { name: 'SQL Server', img: asset('icons/sqlserver.png') },
+  { name: 'Firebase', img: asset('icons/firebase.png') },
+  { name: 'Git', img: asset('icons/git.png') },
+  { name: 'HTML', img: asset('icons/html.png') },
+  { name: 'CSS', img: asset('icons/css.png') },
 ]
 
 export const experience = [
@@ -100,38 +102,38 @@ export const projects = [
     title: 'Sistema de impresión de precios y etiquetas',
     description:
       'App Android en Java con impresión térmica Bluetooth (ESC/POS), API en C# y frontend web. Optimizó el seguimiento y control de precios en tiempo real en Grupo Dinosaurio.',
-    image: 'https://via.placeholder.com/600x400/ff6e42/ffffff?text=Sistema+de+Etiquetas',
+    image: asset('projects/etiquetas_v2.svg'),
     repo: 'https://github.com/Marcos-Castillo/etiquetas_v2',
   },
   {
     title: 'Plataforma de gestión de RRHH y vacantes',
     description:
       'Sistema de gestión de vacantes desarrollado con Angular y Microsoft SQL Server, impulsando un aumento en las postulaciones de la empresa.',
-    image: 'https://via.placeholder.com/600x400/ff6e42/ffffff?text=RRHH',
+    image: asset('projects/rrhh.svg'),
     repo: 'https://github.com/Marcos-Castillo/rrhh',
   },
   {
     title: 'Market',
     description: 'E-commerce desarrollado con React y Vite.',
-    image: 'https://via.placeholder.com/600x400/ff6e42/ffffff?text=Market',
+    image: asset('projects/market.svg'),
     repo: 'https://github.com/Marcos-Castillo/Market',
   },
   {
     title: 'Control de Aforo Inteligente',
     description: 'Prototipo de control de aforo con detección facial integrada a Firebase.',
-    image: 'https://via.placeholder.com/600x400/ff6e42/ffffff?text=Control+de+Aforo',
+    image: asset('projects/aforo.svg'),
     repo: 'https://github.com/Marcos-Castillo/pruba-reconcimiento-facial-',
   },
   {
     title: 'appChat',
     description: 'Aplicación de mensajería con backend en tiempo real.',
-    image: 'https://via.placeholder.com/600x400/ff6e42/ffffff?text=appChat',
+    image: asset('projects/appchat.svg'),
     repo: 'https://github.com/Marcos-Castillo/appChat',
   },
   {
     title: 'Sistema de ventas en Spring Boot',
     description: 'Trabajo práctico final de Spring Boot con Java y MySQL (Codo a Codo 4.0).',
-    image: 'https://via.placeholder.com/600x400/ff6e42/ffffff?text=Spring+Boot+Ventas',
+    image: asset('projects/tp-grupo-14.svg'),
     repo: 'https://github.com/Marcos-Castillo/tp-grupo-14',
   },
 ]
