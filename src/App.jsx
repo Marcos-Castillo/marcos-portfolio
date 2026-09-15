@@ -1,4 +1,5 @@
 import About from './components/About.jsx'
+import AnimatedBackground from './components/AnimatedBackground.jsx'
 import Contact from './components/Contact.jsx'
 import Education from './components/Education.jsx'
 import Experience from './components/Experience.jsx'
@@ -12,6 +13,7 @@ import './index.css'
 function App() {
   return (
     <>
+      <AnimatedBackground />
       <Nav />
       <main>
         <Hero />
