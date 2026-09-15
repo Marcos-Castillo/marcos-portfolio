@@ -102,7 +102,7 @@ export const projects = [
     title: 'Sistema de impresión de precios y etiquetas',
     description:
       'App Android en Java con impresión térmica Bluetooth (ESC/POS), API en C# y frontend web. Optimizó el seguimiento y control de precios en tiempo real en Grupo Dinosaurio.',
-    image: asset('projects/etiquetas_v2.svg'),
+    image: asset('projects/printer.jpg'),
     repo: 'https://github.com/Marcos-Castillo/etiquetas_v2',
   },
   {
@@ -115,7 +115,7 @@ export const projects = [
   {
     title: 'Market',
     description: 'E-commerce desarrollado con React y Vite.',
-    image: asset('projects/market.svg'),
+    image: asset('projects/market-banner.png'),
     repo: 'https://github.com/Marcos-Castillo/Market',
   },
   {
@@ -133,7 +133,7 @@ export const projects = [
   {
     title: 'Sistema de ventas en Spring Boot',
     description: 'Trabajo práctico final de Spring Boot con Java y MySQL (Codo a Codo 4.0).',
-    image: asset('projects/tp-grupo-14.svg'),
+    image: asset('projects/diagrama_clases.png'),
     repo: 'https://github.com/Marcos-Castillo/tp-grupo-14',
   },
 ]
