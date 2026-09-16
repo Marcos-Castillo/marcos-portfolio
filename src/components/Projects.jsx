@@ -18,14 +18,16 @@ function Projects() {
               <div className="card__body">
                 <h3 className="card__title">{project.title}</h3>
                 <p className="card__text">{project.description}</p>
-                <a
-                  className="btn btn--outline btn--small"
-                  href={project.repo}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Repositorio
-                </a>
+                {project.repo && (
+                  <a
+                    className="btn btn--outline btn--small"
+                    href={project.repo}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Repositorio
+                  </a>
+                )}
               </div>
             </article>
           ))}

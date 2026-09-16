@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-label="lectorMd">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101014"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9db8ff"/>
+      <stop offset="1" stop-color="#4d6bfe"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#6799fe" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="599" height="399" fill="none" stroke="#6799fe" stroke-opacity="0.18"/>
+  <text x="588" y="356" text-anchor="end" font-family="Fragment Mono,ui-monospace,monospace" font-size="90" font-weight="700" opacity="0.05" fill="#9db8ff" transform="rotate(-8 460 356)">MD</text>
+  <rect x="24" y="20" width="552" height="44" rx="10" fill="#16161c" stroke="#6799fe" stroke-opacity="0.25"/>
+  <circle cx="44" cy="42" r="5.5" fill="#ff6e42" opacity="0.7"/>
+  <circle cx="62" cy="42" r="5.5" fill="#f2c14e" opacity="0.7"/>
+  <circle cx="80" cy="42" r="5.5" fill="#4dbf6e" opacity="0.7"/>
+  <rect x="104" y="32" width="170" height="20" rx="10" fill="#20212b"/>
+  <rect x="40" y="92" width="520" height="192" rx="14" fill="#121218" stroke="#6799fe" stroke-opacity="0.3" stroke-dasharray="7 7"/>
+  <rect x="96" y="116" width="132" height="144" rx="8" fill="none" stroke="url(#acc)" stroke-width="3"/>
+  <rect x="112" y="150" width="100" height="10" rx="5" fill="url(#acc)" opacity="0.85"/>
+  <rect x="112" y="172" width="80" height="8" rx="4" fill="#9db8ff" opacity="0.45"/>
+  <rect x="112" y="190" width="88" height="8" rx="4" fill="#9db8ff" opacity="0.45"/>
+  <rect x="112" y="208" width="64" height="8" rx="4" fill="#9db8ff" opacity="0.45"/>
+  <path d="M360 150l26 26-26 26" stroke="#4d6bfe" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="398" y1="190" x2="344" y2="190" stroke="#4d6bfe" stroke-width="4" stroke-linecap="round"/>
+  <text x="374" y="254" text-anchor="middle" font-family="Fragment Mono,ui-monospace,monospace" font-size="16" fill="#8aa7ff" letter-spacing="2">MD&nbsp;·&nbsp;PDF</text>
+  <text x="40" y="326" font-family="DM Sans,system-ui,sans-serif" font-size="27" font-weight="700" fill="#ffffff">lectorMd</text>
+  <text x="40" y="352" font-family="DM Sans,system-ui,sans-serif" font-size="15" fill="#9db8ff">Markdown · PDF · HTML</text>
+  <rect x="40" y="366" width="110" height="20" rx="10" fill="#6799fe" opacity="0.14"/>
+  <text x="95" y="381" text-anchor="middle" font-family="Fragment Mono,ui-monospace,monospace" font-size="10" letter-spacing="1" fill="#8aa7ff">VISTA PREVIA</text>
+</svg>

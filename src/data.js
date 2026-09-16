@@ -129,6 +129,42 @@ export const projects = [
     image: asset('projects/diagrama_clases.png'),
     repo: 'https://github.com/Marcos-Castillo/tp-grupo-14',
   },
+  {
+    title: 'lectorMd',
+    description: 'Lector y conversor de Markdown a PDF (HTML/JS standalone).',
+    image: asset('projects/lectorMd.svg'),
+    repo: 'https://github.com/Marcos-Castillo/lectorMd',
+  },
+  {
+    title: 'Kanban',
+    description: 'Tablero Kanban con drag & drop, persistencia en localStorage y respaldos automáticos.',
+    image: asset('projects/kanban.svg'),
+    repo: 'https://github.com/Marcos-Castillo/kanban',
+  },
+  {
+    title: 'Juegos dante',
+    description: 'Compilado de juegos infantiles desarrollados en lenguaje web.',
+    image: asset('projects/juegos-dante.svg'),
+  },
+  {
+    title: 'Manuales IA',
+    description:
+      'Sistema de gestión y consulta inteligente de manuales técnicos con IA: centraliza manuales (PDF, DOCX, TXT, MD, RTF), chat con IA basado en el contenido, resúmenes automáticos, lectura por voz (TTS) y gestión de usuarios, roles y permisos. API .NET (C#) con Ollama.',
+    image: asset('projects/manuales-ia.svg'),
+    repo: 'https://github.com/Marcos-Castillo/Manuales-ia',
+  },
+  {
+    title: 'Ncgift',
+    description:
+      'Automatización de notas de crédito de gift cards (Dini/plástico) con impresora fiscal Epson, cierres Z y reportes por email.',
+    image: asset('projects/ncgift.svg'),
+    repo: 'https://github.com/Marcos-Castillo/NotaCreditoGiftCard',
+  },
+  {
+    title: 'Verificadores',
+    description: 'API de verificación de precios y carrusel de imágenes para puntos de venta.',
+    image: asset('projects/verificadores.svg'),
+  },
 ]
 
 export const degrees = [
