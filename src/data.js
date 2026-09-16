@@ -211,7 +211,6 @@ export const languages = [
 ]
 
 export const navLinks = [
-  { href: '#sobre-mi', label: 'Sobre mí' },
   { href: '#skills', label: 'Skills' },
   { href: '#experiencia', label: 'Experiencia' },
   { href: '#proyectos', label: 'Proyectos' },
