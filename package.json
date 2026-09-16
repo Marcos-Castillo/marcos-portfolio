@@ -10,7 +10,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "wsl -e node node_modules/gh-pages/bin/gh-pages.js -d dist"
   },
   "dependencies": {
     "react": "^19.2.8",
