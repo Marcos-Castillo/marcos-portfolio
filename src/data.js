@@ -132,13 +132,13 @@ export const projects = [
   {
     title: 'lectorMd',
     description: 'Lector y conversor de Markdown a PDF (HTML/JS standalone).',
-    image: asset('projects/lectorMd.svg'),
+    image: asset('projects/lectorMd.png'),
     repo: 'https://github.com/Marcos-Castillo/lectorMd',
   },
   {
     title: 'Kanban',
     description: 'Tablero Kanban con drag & drop, persistencia en localStorage y respaldos automáticos.',
-    image: asset('projects/kanban.svg'),
+    image: asset('projects/kanban.png'),
     repo: 'https://github.com/Marcos-Castillo/kanban',
   },
   {
@@ -150,20 +150,27 @@ export const projects = [
     title: 'Manuales IA',
     description:
       'Sistema de gestión y consulta inteligente de manuales técnicos con IA: centraliza manuales (PDF, DOCX, TXT, MD, RTF), chat con IA basado en el contenido, resúmenes automáticos, lectura por voz (TTS) y gestión de usuarios, roles y permisos. API .NET (C#) con Ollama.',
-    image: asset('projects/manuales-ia.svg'),
+    image: asset('projects/manuales-ia.png'),
     repo: 'https://github.com/Marcos-Castillo/Manuales-ia',
   },
   {
     title: 'Ncgift',
     description:
       'Automatización de notas de crédito de gift cards (Dini/plástico) con impresora fiscal Epson, cierres Z y reportes por email.',
-    image: asset('projects/ncgift.svg'),
+    image: asset('projects/nc-gift.png'),
     repo: 'https://github.com/Marcos-Castillo/NotaCreditoGiftCard',
   },
   {
     title: 'Verificadores',
     description: 'API de verificación de precios y carrusel de imágenes para puntos de venta.',
     image: asset('projects/verificadores.svg'),
+  },
+  {
+    title: 'Club Dino',
+    description:
+      'Club de beneficios de Grupo Dinosaurio: una amplia variedad de beneficios y descuentos especiales en tiendas de Córdoba y Mendoza. Frontend estático con Bootstrap y backend .NET (JWT, Dapper/SQLite).',
+    image: asset('projects/clubdino.webp'),
+    repo: 'https://github.com/Marcos-Castillo/ClubDino2026',
   },
 ]
 
